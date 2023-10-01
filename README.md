@@ -1,6 +1,6 @@
 # rdwnld
 A  simple web app  to download reddit videos.
-#TECH STACK 
+# TECH STACK 
 Html 
 Css
 JavaScript
