@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+#but1{
+    justify-content: center;
+    align-items: center;
+
+}
+#butt{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  #butt::before {
+    margin-left: auto;
+  }
+  
+  #butt::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: whitesmoke;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  #butt:hover::after, button:hover::before {
+    width: 100%;
+  }
